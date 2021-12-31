@@ -1,4 +1,4 @@
-const baseUrl = location.hostname === "localhost" ?
+const baseUrl = location && location.hostname === "localhost" ?
     "http://localhost:2000/api" :
     "https://flipkart-project-admin-app.herokuapp.com";
 
