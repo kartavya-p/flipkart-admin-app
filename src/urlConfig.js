@@ -1,6 +1,4 @@
-const baseUrl = location && location.hostname === "localhost" ?
-    "http://localhost:2000/api" :
-    "https://flipkart-project-admin-app.herokuapp.com";
+const baseUrl = "https://flipkart-project-admin-app.herokuapp.com";
 
 export const api = `${baseUrl}/api`;
 export const generatePublicUrl = (fileName) => {
